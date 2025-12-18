@@ -54,6 +54,7 @@ npm run build:pdf
 ```
 resume-ats/
 ├── index.js                    # Main resume generation script
+├── resume-data.json            # Resume content in structured JSON format
 ├── package.json                # Project dependencies and scripts
 ├── Aswin_Kalarickal_Resume.docx  # Generated DOCX file
 ├── Aswin_Kalarickal_Resume.pdf   # Generated PDF file
@@ -78,14 +79,27 @@ The built artifacts (DOCX and PDF) are available for download from the Actions t
 
 ## How It Works
 
-1. [index.js](index.js) uses the `docx` library to programmatically create a resume document
-2. The script defines styles, formatting, and content structure
-3. The DOCX file is generated and saved
-4. LibreOffice converts the DOCX to PDF format
+1. Resume content is stored in [resume-data.json](resume-data.json) in a structured format
+2. [index.js](index.js) uses the `docx` library to programmatically create a resume document
+3. The script reads the JSON data and dynamically generates the document structure
+4. The script defines styles, formatting, and content structure
+5. The DOCX file is generated and saved
+6. LibreOffice converts the DOCX to PDF format
 
 ## Customization
 
-To update your resume, modify the content in [index.js](index.js) and run the build command. The document structure includes:
+To update your resume, modify the content in [resume-data.json](resume-data.json) and run the build command. The JSON file contains:
+
+- **personalInfo**: Contact information (name, address, phones, email, website, location)
+- **technicalSkills**: Skills categorized by type (coding, deployment, messaging, etc.)
+- **experience**: Work history with projects and responsibilities
+- **education**: Educational qualifications
+- **academicProjects**: Academic project descriptions
+- **languages**: Language proficiencies
+- **interests**: Personal interests
+- **activities**: Activities and achievements
+
+The document structure includes:
 
 - Custom styles for headings and body text
 - Bullet list formatting

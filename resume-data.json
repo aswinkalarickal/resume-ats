@@ -1,0 +1,199 @@
+{
+  "personalInfo": {
+    "name": "Aswin Kalarickal",
+    "address": "Kalarickal House, Chowara PO, Ernakulam, Kerala, India - 683 571",
+    "phones": ["+971 543 523 953", "+91 88 91 423590"],
+    "email": "mail@aswink.in",
+    "website": "www.aswink.in",
+    "location": "Abu Dhabi, UAE"
+  },
+  "technicalSkills": {
+    "codingArchitecture": "C#, Go, Node.js, Javascript, Typescript, Python, Web Backend (.NET Core, Express), Datastores (MongoDB, Redis, MySQL), Web Frontend (ReactJS), Game Engine (Unity), Scripting (Bash)",
+    "deployment": "Terraform, TeamCity, Jenkins, Docker, Nginx",
+    "messaging": "XMPP, Socket.IO",
+    "versioning": "Perforce, Git, Mercurial",
+    "cloudInfrastructure": "Amazon Web Services (AWS), Google Cloud Platform (GCP), Kubernetes"
+  },
+  "experience": [
+    {
+      "title": "Senior Online Programmer",
+      "company": "Ubisoft Abu Dhabi",
+      "location": "Abu Dhabi, UAE",
+      "period": "2024 - Present",
+      "companyDescription": "Ubisoft Abu Dhabi is one of the first major video game studios based in the UAE capital, focusing on developing and bringing to market successful mobile games for a worldwide audience.",
+      "projects": [
+        {
+          "name": "Captain Laserhawk: The G.A.M.E.",
+          "responsibilities": [
+            "Developed server-side architecture using C# .NET in microservices environment",
+            "Maintained server code ownership including code reviews and maintenance",
+            "Managed cloud deployments using Kubernetes on AWS with TeamCity",
+            "Implemented matchmaking using Open Match",
+            "Implemented Infrastructure as Code (IaaS) using Terraform",
+            "Developed multiplayer game logic and meta functionalities",
+            "Integrated Web3 functionalities including NFT inventory from Ethereum blockchain",
+            "Collaborated with cross-functional teams across different time zones",
+            "Built admin tool using ReactJS"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Online Programmer",
+      "company": "Ubisoft Redlynx",
+      "location": "Remote",
+      "period": "2023 - 2024",
+      "companyDescription": null,
+      "projects": [
+        {
+          "name": "Gwen's Getaway",
+          "responsibilities": [
+            "Developed server-side architecture using Go in microservices environment",
+            "Implemented meta functionalities and game features",
+            "Built admin tool using ReactJS",
+            "Managed cloud deployments using Kubernetes on GCP with GitLab CI/CD",
+            "Worked remotely across different time zones"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Online Programmer",
+      "company": "Ubisoft Abu Dhabi",
+      "location": "Abu Dhabi, UAE",
+      "period": "2021 - 2024",
+      "companyDescription": null,
+      "projects": [
+        {
+          "name": "Clash of Beasts",
+          "responsibilities": [
+            "Developed server-side features using C# .NET",
+            "Implemented custom matchmaking system",
+            "Implemented meta functionalities and leaderboard system",
+            "Integrated support for Google Play Games for PC",
+            "Implemented messaging system using XMPP, including migration to ejabberd CE from Fluux",
+            "Managed deployments using Jenkins and AWS"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Senior Game Developer",
+      "company": "DYNAMICNEXT",
+      "location": "Kochi, India",
+      "period": "2017 - 2021",
+      "companyDescription": "DYNAMICNEXT is a company specializing in social strategic games with main titles including Downtown Mafia and Battlecry, serving over 2 million users combined.",
+      "projects": [
+        {
+          "name": "Downtown Gangstaz",
+          "responsibilities": [
+            "Implemented user interface and game features",
+            "Integrated third-party services: Unity Ads, AppsFlyer, Mixpanel, Google Play Games, Facebook",
+            "Implemented in-app purchases",
+            "Developed server-side features"
+          ]
+        },
+        {
+          "name": "DTC Poker - Texas Hold'em",
+          "responsibilities": [
+            "Designed and developed core game functionalities",
+            "Implemented custom matchmaking system",
+            "Integrated Unity Ads, AppsFlyer, Mixpanel",
+            "Implemented login system with Facebook and Google Play Games",
+            "Implemented in-app purchases",
+            "Ported the game to Steam platform"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "DYNAMICNEXT",
+      "location": "Kochi, India",
+      "period": "2014 - 2017",
+      "companyDescription": null,
+      "projects": [
+        {
+          "name": "Downtown Casino",
+          "responsibilities": [
+            "Designed and developed core game functionalities",
+            "Managed server deployment",
+            "Implemented in-app purchases"
+          ]
+        },
+        {
+          "name": "Downtown Mafia",
+          "responsibilities": [
+            "Implemented additional game functionalities and features"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "COO & Co-founder",
+      "company": "Coppra",
+      "location": "Kochi, India",
+      "period": "2013 - 2014",
+      "companyDescription": "Coppra developed websites and web applications for various clients including Startup Village and KSEB. First company to launch a Malayalam movie promotion game for Android and developed title games for local animation series. Core team member responsible for products and services as a leading developer.",
+      "projects": [
+        {
+          "name": null,
+          "responsibilities": [
+            "Developed multiple websites including Startup Village's official website",
+            "Built backend for social games including Hit It!"
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech in Computer Science and Engineering",
+      "institution": "MES College of Engineering, Kuttippuram",
+      "year": "2013",
+      "grade": "68.9%"
+    },
+    {
+      "degree": "AISSCE (12th Grade)",
+      "institution": "S N Vidya Bhavan, Chentrappinni",
+      "year": "2009",
+      "grade": "82.6%"
+    },
+    {
+      "degree": "AISSE (10th Grade)",
+      "institution": "S N Vidya Bhavan, Chentrappinni",
+      "year": "2007",
+      "grade": "83.2%"
+    }
+  ],
+  "academicProjects": [
+    {
+      "title": "Main Project: Intelligent Traffic Lights Based on RFID",
+      "description": "Developed a dynamic traffic signaling system using Radio Frequency Identification (RFID). RFID readers at intersections detected tags in vehicles to determine queue counts and dynamically compute green light durations. The system allowed priority assignment and vehicle tracking for theft prevention and traffic rule enforcement."
+    },
+    {
+      "title": "Mini Project: Single Sign-On",
+      "description": "Implemented single sign-on for managing multiple personal accounts. Created a website where users could save login credentials for different sites and access them without re-entering details."
+    }
+  ],
+  "languages": [
+    {
+      "language": "Malayalam",
+      "proficiency": "Native"
+    },
+    {
+      "language": "English",
+      "proficiency": "Full professional proficiency"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "Professional working proficiency"
+    }
+  ],
+  "interests": ["Music", "Photography", "Tech Magazines"],
+  "activities": [
+    "Official web designer of Stupa'13 - a national level inter-college techno-cultural event held at MES College of Engineering, Kuttippuram",
+    "Secretary of departmental association MatriCS (MES Association for Technical Research in Computer Science), organized various college events",
+    "House captain at school, participated in various district and state level events"
+  ]
+}
