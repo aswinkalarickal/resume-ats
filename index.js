@@ -10,9 +10,7 @@ import {
 import { writeFileSync, readFileSync } from "fs";
 
 // Load resume data from JSON file
-const resumeData = JSON.parse(
-  readFileSync("./resume-data.json", "utf-8")
-);
+const resumeData = JSON.parse(readFileSync("./resume-data.json", "utf-8"));
 
 const doc = new Document({
   styles: {
@@ -113,7 +111,10 @@ const doc = new Document({
           alignment: AlignmentType.CENTER,
           spacing: { after: 240 },
           children: [
-            new TextRun({ text: `Location: ${resumeData.personalInfo.location}`, size: 20 }),
+            new TextRun({
+              text: `Location: ${resumeData.personalInfo.location}`,
+              size: 20,
+            }),
           ],
         }),
 
@@ -160,11 +161,21 @@ const doc = new Document({
         }),
 
         new Paragraph({
-          spacing: { after: 240 },
+          spacing: { after: 80 },
           children: [
             new TextRun({ text: "Cloud Infrastructure: ", bold: true }),
             new TextRun({
               text: resumeData.technicalSkills.cloudInfrastructure,
+            }),
+          ],
+        }),
+
+        new Paragraph({
+          spacing: { after: 240 },
+          children: [
+            new TextRun({ text: "Methodologies: ", bold: true }),
+            new TextRun({
+              text: resumeData.technicalSkills.methodologies,
             }),
           ],
         }),
@@ -239,17 +250,20 @@ const doc = new Document({
 
             // Responsibilities
             project.responsibilities.forEach((responsibility, respIndex) => {
-              const isLastResponsibility = respIndex === project.responsibilities.length - 1;
-              const spacing = (isLastProject && isLastResponsibility && !isLastJob) ? { after: 240 } :
-                             (isLastResponsibility && !isLastProject) ? { after: 160 } : {};
+              const isLastResponsibility =
+                respIndex === project.responsibilities.length - 1;
+              const spacing =
+                isLastProject && isLastResponsibility && !isLastJob
+                  ? { after: 240 }
+                  : isLastResponsibility && !isLastProject
+                  ? { after: 160 }
+                  : {};
 
               jobParagraphs.push(
                 new Paragraph({
                   numbering: { reference: "bullet-list", level: 0 },
                   spacing,
-                  children: [
-                    new TextRun(responsibility),
-                  ],
+                  children: [new TextRun(responsibility)],
                 })
               );
             });
@@ -362,9 +376,7 @@ const doc = new Document({
         ...resumeData.activities.map((activity) => {
           return new Paragraph({
             numbering: { reference: "bullet-list", level: 0 },
-            children: [
-              new TextRun(activity),
-            ],
+            children: [new TextRun(activity)],
           });
         }),
       ],

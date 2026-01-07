@@ -12,7 +12,8 @@
     "deployment": "Terraform, TeamCity, Jenkins, Docker, Nginx",
     "messaging": "XMPP, Socket.IO",
     "versioning": "Perforce, Git, Mercurial",
-    "cloudInfrastructure": "Amazon Web Services (AWS), Google Cloud Platform (GCP), Kubernetes"
+    "cloudInfrastructure": "Amazon Web Services (AWS), Google Cloud Platform (GCP), Kubernetes",
+    "methodologies": "Agile (Scrum, Kanban), CI/CD"
   },
   "experience": [
     {
@@ -32,8 +33,16 @@
             "Implemented Infrastructure as Code (IaaS) using Terraform",
             "Developed multiplayer game logic and meta functionalities",
             "Integrated Web3 functionalities including NFT inventory from Ethereum blockchain",
+            "Built admin tool using ReactJS",
             "Collaborated with cross-functional teams across different time zones",
-            "Built admin tool using ReactJS"
+            "Technical design and architecture decisions",
+            "Communicating with stakeholders",
+            "Ownership of server code including code reviews and maintenance",
+            "Managing release cycles and hotfixes",
+            "Mentoring junior developers",
+            "Conducting technical interviews",
+            "Participated in sprint planning and retrospectives",
+            "Create backlog and estimate stories"
           ]
         }
       ]
@@ -72,7 +81,11 @@
             "Implemented meta functionalities and leaderboard system",
             "Integrated support for Google Play Games for PC",
             "Implemented messaging system using XMPP, including migration to ejabberd CE from Fluux",
-            "Managed deployments using Jenkins and AWS"
+            "Managed deployments using Jenkins and AWS",
+            "Ownership of server code including code reviews and maintenance",
+            "Managing release cycles and hotfixes",
+            "Participated in sprint planning and retrospectives",
+            "Create backlog and estimate stories"
           ]
         }
       ]
